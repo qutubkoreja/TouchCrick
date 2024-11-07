@@ -1,0 +1,13 @@
+# robots.txt for TouchCrick.pk
+
+User-agent: *
+# Allow all search engines to crawl the entire site
+Allow: /
+
+# Disallow crawlers from specific folders or pages
+Disallow: /private/
+Disallow: /admin/
+Disallow: /login/
+
+# Allow bots to crawl the sitemap
+Sitemap: https://www.touchcrick.pk/sitemap.xml
